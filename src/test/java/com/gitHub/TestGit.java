@@ -31,6 +31,7 @@ public class TestGit extends WebDriverSettings {
         driver.findElement(By.name("commit")).click();
         getTitle = driver.getTitle();
         Assert.assertTrue(getTitle.equals("GitHub"));
+        //close
 
     }
 
